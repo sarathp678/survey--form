@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey-Form</title>
+  </head>
+  <body>
+    <div>
+      <h1>Survey-Form</h1>
+      <p>Thankyou for taking this survey</p>
+      <!-- section 1 -->
+      <section>
+        <form>
+          <fieldset>
+            <label for="name"
+              >Name
+              <br />
+              <input type="text" id="name" />
+            </label>
+            <br />
+            <br />
+            <label for="email"
+              >Email
+              <br />
+              <input type="text" id="email" />
+            </label>
+            <br />
+            <br />
+            <label for="age">
+              Age(Optional)
+              <br />
+              <input type="text" id="age" />
+            </label>
+            <p>Which option best describes your current role</p>
+            <select name="role" id="role">
+              <option value="0">Select current role</option>
+              <option value="1">Student</option>
+              <option value="2">Full time job</option>
+              <option value="3">Full time learner</option>
+              <option value="4">other</option>
+            </select>
+          </fieldset>
+        </form>
+      </section>
+      <br />
+      <!-- section 2 -->
+      <section>
+        <form>
+          <fieldset>
+            <p>Was the section interactive</p>
+            <input type="radio" name="query" value="y" /> Yes
+            <br />
+            <input type="radio" name="query" value="n"/> No
+          </fieldset>
+        </form>
+      </section>
+      <br />
+      <!-- section 3 -->
+      <section>
+        <form>
+          <fieldset>
+            <p>What would you like to see improved?</p>
+            <input type="checkbox" />More projects
+            <br />
+            <input type="checkbox" />Student recape
+            <br />
+            <input type="checkbox" />Lesser homework
+            <br />
+            <input type="checkbox" />live Q/A
+            <br />
+            <input type="checkbox" />Use collaboration tools
+          </fieldset>
+        </form>
+      </section>
+      <br>
+      <!-- section 4 -->
+       <section>
+        <form>
+          <fieldset>
+            <p>Extra comments or sugggestions</p>
+            <textarea placeholder="write your comment here"rows="4" cols="50"></textarea>
+          </fieldset>
+        </form>
+       </section>
+       <br>
+       <button>submit</button>
+    </div>
+  </body>
+</html>
