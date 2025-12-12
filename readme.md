@@ -7,7 +7,7 @@ Here is a clean, professional **README.md** you can use for your project:
 This project is a simple and clean **Survey Form** built using basic HTML. It is designed to collect user input such as personal details, opinions, and suggestions. The form includes text fields, radio buttons, checkboxes, a dropdown menu, and a textarea for comments.
 
 ---
-[live@](https://github.com/sarathp678/survey--form)
+[live@](https://sarathp678.github.io/survey--form/)
 
 
 
